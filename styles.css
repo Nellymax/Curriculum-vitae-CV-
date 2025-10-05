@@ -1,15 +1,78 @@
 body{
-background-color: skyblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    color: darkgrey;
+    background-color: skyblue;
+    max-width: 700px;
+    margin: auto;
+    font-size: 14px;
 }
-textarea{
-    background-color: black;
-    color: white;
-    padding: 15px 10px;
-    text-align: justify;
-    border: none;
-    border: radius 20px;
-}
+
 h1{
     color:navy;
     text-align: justify;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+h2{
+    color: darkblue;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+p{
+    font-size: 12px;
+    line-height: normal;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    background-color: lime;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+th{
+    background-color: aqua;
+}
+
+ul{
+    list-style: box;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+image{
+    border-radius: 50%;
+width: 200px;
+height: 300px;
+}
+
+.skills{
+    color: black;
+}
+.profile{
+    color: black;
+}
+.gallery{
+    color: black;
+}
+.work experience{
+    color: black;
+}
+.contact{
+    color:black;
+}
+.academic{
+    color: black;
 }
